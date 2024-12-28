@@ -1,0 +1,30 @@
+.container {
+  position: fixed;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 750px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  transition: bottom 0.1s ease-in-out;
+}
+
+.third-places {
+  height: 45px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+  border-radius: 11px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+
+}
+
+.container.show {
+  bottom: 5px; 
+  align-content: center;
+}
